@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #414288;
+}
+
+#navbar .btnCrea {
+  font-family: arial;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  border: 1px solid grey;
+  background-color: #682D63;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.carsList {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
